@@ -1,0 +1,20 @@
+# Wyklucz dane i modele
+data/
+*.npz
+*.pkl
+*.parquet
+*.zip
+*.csv
+
+# Pliki systemowe
+__pycache__/
+*.pyc
+
+# Jupyter checkpointy
+.ipynb_checkpoints/
+
+# Środowiska
+.env/
+.conda/
+*.env
+

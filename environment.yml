@@ -1,0 +1,23 @@
+name: dimred2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas>=1.0
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - ipykernel
+  - fastparquet
+  - scikit-learn
+  - pacmap=0.7.2
+  - umap-learn
+  - tqdm
+  - pip
+  - pip:
+      - git+https://github.com/TurtleTools/geometricus.git
+      - trimap
+
+
