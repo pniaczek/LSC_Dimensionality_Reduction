@@ -1,0 +1,5 @@
+[2025-05-30T19:50:13.221110] TRIMAP (MNIST)
+Wall time: 70.31 s
+CPU times: user 70.87 s, sys 0.52 s, total 71.39 s
+Points: 70000, Dimensions: 2
+Hostname: ac0077

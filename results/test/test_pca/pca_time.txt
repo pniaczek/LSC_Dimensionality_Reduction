@@ -1,0 +1,6 @@
+[2025-05-30T23:43:30.286657] PCA (MNIST)
+Explained variance: 9.75%, 7.16%
+Wall time: 0.60 s
+CPU times: user 0.55 s, sys 0.01 s, total 0.56 s
+Points: 70000, Dimensions: 2
+Hostname: ac0784

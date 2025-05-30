@@ -1,0 +1,5 @@
+[Sat May 31 00:10:09 CEST 2025] Uruchamiam PCA...
+/net/afscra/people/plgmpniak/dimensionality_reduction_project/pca_reduction.py:68: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  return [mcolors.rgb2hex(cm.get_cmap(name)(i)) for i in np.linspace(0, 1, 256)]
+PCA zakończone. Wyniki w: /net/afscra/people/plgmpniak/dimensionality_reduction_project/results/pca
+[Sat May 31 00:10:40 CEST 2025] Zakończono.

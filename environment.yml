@@ -1,23 +1,17 @@
-name: dimred2
+name: dimred_env
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.10
-  - pandas>=1.0
   - numpy
+  - pandas
   - matplotlib
-  - seaborn
-  - plotly
-  - jupyter
-  - ipykernel
-  - fastparquet
   - scikit-learn
-  - pacmap=0.7.2
+  - fastparquet
+  - pacmap==0.7.2
   - umap-learn
-  - tqdm
+  - datashader
   - pip
   - pip:
-      - git+https://github.com/TurtleTools/geometricus.git
       - trimap
-
-

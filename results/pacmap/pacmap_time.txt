@@ -1,0 +1,5 @@
+[2025-05-30T17:34:28.319348] PaCMAP
+Wall time: 1720.77 s
+CPU times: user 1796.82 s, sys 7.65 s, total 1804.47 s
+Points: 1505141, Dimensions: 2
+Hostname: ac0625

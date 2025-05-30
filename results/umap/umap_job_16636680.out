@@ -1,0 +1,7 @@
+/net/afscra/people/plgmpniak/.conda/envs/dimred_env/lib/python3.10/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/net/afscra/people/plgmpniak/dimensionality_reduction_project/umap_reduction.py:55: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.tight_layout()
+/net/afscra/people/plgmpniak/dimensionality_reduction_project/umap_reduction.py:66: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  return [mcolors.rgb2hex(cm.get_cmap(name)(i)) for i in np.linspace(0, 1, 256)]
+Zapisano UMAP embedding i obrazy w: /net/afscra/people/plgmpniak/dimensionality_reduction_project/results

@@ -1,0 +1,4 @@
+/net/afscra/people/plgmpniak/.conda/envs/dimred_env/lib/python3.10/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/var/spool/slurmd/job16636655/slurm_script: line 20: 3579132 Killed                  python umap_reduction.py
+slurmstepd: error: Detected 1 oom_kill event in StepId=16636655.batch. Some of the step tasks have been OOM Killed.

@@ -1,0 +1,5 @@
+[2025-05-30T20:44:06.054729] TRIMAP
+Wall time: 2771.53 s
+CPU times: user 2839.21 s, sys 7.36 s, total 2846.57 s
+Points: 1505141, Dimensions: 2
+Hostname: ac0533

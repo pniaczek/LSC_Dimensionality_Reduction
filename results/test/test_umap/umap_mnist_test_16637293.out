@@ -1,0 +1,16 @@
+/net/afscra/people/plgmpniak/dimensionality_reduction_project/trimap_try.py:66: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  return [mcolors.rgb2hex(cm.get_cmap(name)(i)) for i in np.linspace(0, 1, 256)]
+Pobieranie MNIST...
+TRIMAP(n_inliers=12, n_outliers=4, n_random=3, distance=euclidean, weight_temp=0.5, lr=0.1, n_iters=400, apply_pca=True, opt_method=dbd, verbose=True, return_seq=False)
+running TriMap on 70000 points with dimension 784
+pre-processing
+applied PCA
+found nearest neighbors
+sampled triplets
+running TriMap with dbd
+Iteration:  100 /  400, Loss: 0.110, Violated triplets: 2.6710
+Iteration:  200 /  400, Loss: 0.098, Violated triplets: 2.5894
+Iteration:  300 /  400, Loss: 0.090, Violated triplets: 2.5396
+Iteration:  400 /  400, Loss: 0.086, Violated triplets: 2.5189
+Elapsed time: 0:01:10.272020
+Zakończono wizualizacje TRIMAP MNIST. Pliki w: /net/afscra/people/plgmpniak/dimensionality_reduction_project/results/test/test_trimap
