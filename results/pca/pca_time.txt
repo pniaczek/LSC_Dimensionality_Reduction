@@ -1,6 +1,6 @@
-[2025-05-31T00:14:44.062778] PCA (AFDB + ESMAtlas + MIP)
+[2025-05-31T00:27:06.135343] PCA (AFDB + ESMAtlas + MIP)
 Explained variance: 25.58%, 21.83%
-Wall time: 9.53 s
-CPU times: user 32.57 s, sys 0.16 s, total 32.73 s
+Wall time: 9.78 s
+CPU times: user 33.37 s, sys 0.11 s, total 33.48 s
 Points: 1505141, Dimensions: 2
 Hostname: ac0072

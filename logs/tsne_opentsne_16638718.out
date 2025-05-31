@@ -1,0 +1,33 @@
+[Sat May 31 01:18:02 CEST 2025] Start openTSNE
+/net/afscra/people/plgmpniak/dimensionality_reduction_project/t_sne_reduction.py:71: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  return [mcolors.rgb2hex(cm.get_cmap(name)(i)) for i in np.linspace(0, 1, 256)]
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=16, random_state=42, verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 90 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 866.47 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 23.39 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 16.77 seconds
+===> Running optimization with exaggeration=12.00, lr=125428.42 for 250 iterations...
+Iteration   50, KL divergence 9.2571, 50 iterations in 37.2149 sec
+Iteration  100, KL divergence 9.1172, 50 iterations in 37.5111 sec
+Iteration  150, KL divergence 9.1062, 50 iterations in 37.6607 sec
+Iteration  200, KL divergence 9.1064, 50 iterations in 37.5677 sec
+Iteration  250, KL divergence 9.1061, 50 iterations in 37.6135 sec
+   --> Time elapsed: 187.57 seconds
+===> Running optimization with exaggeration=1.00, lr=1505141.00 for 500 iterations...
+Iteration   50, KL divergence 6.8748, 50 iterations in 37.4573 sec
+Iteration  100, KL divergence 6.6342, 50 iterations in 39.1679 sec
+Iteration  150, KL divergence 6.5090, 50 iterations in 42.4330 sec
+Iteration  200, KL divergence 6.4280, 50 iterations in 45.1574 sec
+Iteration  250, KL divergence 6.3692, 50 iterations in 46.3197 sec
+Iteration  300, KL divergence 6.3236, 50 iterations in 47.5820 sec
+Iteration  350, KL divergence 6.2868, 50 iterations in 49.5426 sec
+Iteration  400, KL divergence 6.2562, 50 iterations in 50.3986 sec
+Iteration  450, KL divergence 6.2300, 50 iterations in 51.5900 sec
+Iteration  500, KL divergence 6.2071, 50 iterations in 53.2332 sec
+   --> Time elapsed: 462.88 seconds
+Zapisano openTSNE embedding i obrazy w: /net/afscra/people/plgmpniak/dimensionality_reduction_project/results/tsne
+[Sat May 31 01:44:42 CEST 2025] Done

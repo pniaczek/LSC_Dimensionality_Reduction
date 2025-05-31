@@ -1,0 +1,5 @@
+[2025-05-31T01:44:29.378551] openTSNE
+Wall time: 1569.49 s
+CPU times: user 16044.00 s, sys 83.90 s, total 16127.90 s
+Points: 1505141, Dimensions: 2
+Hostname: ac0058
