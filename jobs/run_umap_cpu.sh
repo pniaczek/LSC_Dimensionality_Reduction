@@ -6,14 +6,14 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
 #SBATCH --time=2:00:00
-#SBATCH --partition=plgrid
-#SBATCH --account=plglscclass24-cpu
+#SBATCH --partition=plgrid-gpu-a100 
+#SBATCH --account=plglscclass24-gpu-a100
 
 mkdir -p logs/umap
 
 source ~/.bashrc
-conda activate dimred_env
+source activate dimred_env
 
 cd $SLURM_SUBMIT_DIR
-
-python umap_reduction.py
+cd scripts
+python umap_cpu.py

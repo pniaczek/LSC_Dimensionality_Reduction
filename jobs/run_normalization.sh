@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=pacmap_viz
-#SBATCH --output=results/pacmap_job_%j.out
+#SBATCH --job-name=normalization
+#SBATCH --output=logs/normalization_%j.out
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=128G
-#SBATCH --time=2:00:00
+#SBATCH --mem=32G
+#SBATCH --time=1:00:00
 #SBATCH --partition=plgrid
 #SBATCH --account=plglscclass24-cpu
 
@@ -15,5 +15,6 @@ source ~/.bashrc
 conda activate dimred_env
 
 cd $SLURM_SUBMIT_DIR
+cd common
 
-python pacmap_reduction.py
+python normalization.py

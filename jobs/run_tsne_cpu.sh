@@ -1,21 +1,22 @@
 #!/bin/bash
 #SBATCH --job-name=tsne_open
-#SBATCH --output=logs/tsne_opentsne_%j.out
+#SBATCH --output=logs/tsne/tsne_opentsne_%j.out
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=128G
 #SBATCH --time=8:00:00
-#SBATCH --partition=plgrid
-#SBATCH --account=plglscclass24-cpu
+#SBATCH --partition=plgrid-gpu-a100 
+#SBATCH --account=plglscclass24-gpu-a100
 
-mkdir -p logs
+mkdir -p logs/tsne
 
 source ~/.bashrc
-conda activate dimred_env_2
+source activate dimred_env_2
 
 cd $SLURM_SUBMIT_DIR
+cd scripts
 
 echo "[$(date)] Start openTSNE"
-python t_sne_reduction.py
+python t_sne_cpu.py
 echo "[$(date)] Done"
