@@ -1,0 +1,4 @@
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_env/lib/python3.10/site-packages/sklearn/utils/deprecation.py:132: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_cpu/pca_non_normalized
+✅ UMAP CPU results saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_cpu/pca_non_normalized

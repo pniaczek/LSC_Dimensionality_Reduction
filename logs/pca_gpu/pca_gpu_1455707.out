@@ -1,0 +1,28 @@
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cuda module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.driver module instead.
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/pca_gpu.py", line 41, in <module>
+    X_pca_full = pca.fit_transform(X_gpu)
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 188, in wrapper
+    ret = func(*args, **kwargs)
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 393, in dispatch
+    return self.dispatch_func(func_name, gpu_func, *args, **kwargs)
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 190, in wrapper
+    return func(*args, **kwargs)
+  File "base.pyx", line 687, in cuml.internals.base.UniversalBase.dispatch_func
+  File "pca.pyx", line 507, in cuml.decomposition.pca.PCA.fit_transform
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 188, in wrapper
+    ret = func(*args, **kwargs)
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 393, in dispatch
+    return self.dispatch_func(func_name, gpu_func, *args, **kwargs)
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 190, in wrapper
+    return func(*args, **kwargs)
+  File "base.pyx", line 687, in cuml.internals.base.UniversalBase.dispatch_func
+  File "pca.pyx", line 434, in cuml.decomposition.pca.PCA.fit
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/input_utils.py", line 380, in input_to_cuml_array
+    arr = CumlArray.from_input(
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/memory_utils.py", line 87, in cupy_rmm_wrapper
+    return func(*args, **kwargs)
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/array.py", line 1214, in from_input
+    raise TypeError(
+TypeError: Expected input to be of type in [dtype('float32'), dtype('float64')] but got uint16

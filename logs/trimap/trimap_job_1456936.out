@@ -1,0 +1,16 @@
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_env/lib/python3.10/site-packages/trimap/__init__.py:3: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+TRIMAP(n_inliers=12, n_outliers=4, n_random=3, distance=euclidean, weight_temp=0.5, lr=0.1, n_iters=400, apply_pca=True, opt_method=dbd, verbose=True, return_seq=False)
+running TriMap on 1505141 points with dimension 844
+pre-processing
+applied PCA
+found nearest neighbors
+sampled triplets
+running TriMap with dbd
+Iteration:  100 /  400, Loss: 0.150, Violated triplets: 1.4525
+Iteration:  200 /  400, Loss: 0.141, Violated triplets: 1.4191
+Iteration:  300 /  400, Loss: 0.135, Violated triplets: 1.3945
+Iteration:  400 /  400, Loss: 0.132, Violated triplets: 1.3808
+Elapsed time: 0:51:00.941103
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/trimap_cpu/non_normalized
+✅ TRIMAP results saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/trimap_cpu/non_normalized

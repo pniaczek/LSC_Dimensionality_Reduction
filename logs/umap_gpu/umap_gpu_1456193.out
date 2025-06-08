@@ -1,0 +1,6 @@
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cuda module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.driver module instead.
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/umap_gpu.py", line 14, in <module>
+    sys.path.insert(0, str(COMMON_PATH))
+NameError: name 'sys' is not defined

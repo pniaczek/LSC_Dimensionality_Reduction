@@ -12,11 +12,11 @@
 mkdir -p logs/tsne
 
 source ~/.bashrc
-source activate dimred_env_2
+source activate dimred_env
 
 cd $SLURM_SUBMIT_DIR
 cd scripts
 
 echo "[$(date)] Start openTSNE"
-python t_sne_cpu.py
+python tsne_cpu.py
 echo "[$(date)] Done"

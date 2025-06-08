@@ -9,7 +9,7 @@
 #SBATCH --partition=plgrid-gpu-a100 
 #SBATCH --account=plglscclass24-gpu-a100
 
-mkdir -p logs/tsne
+mkdir -p logs/pacmap
 
 source ~/.bashrc
 source activate dimred_env

@@ -1,0 +1,8 @@
+[2025-06-06T17:00:23.771621] PCA (AFDB)
+Explained variance (first 2): 25.58%, 21.83%
+Total explained variance (100 comps): 93.90%
+Components needed for >=90% variance: 61
+Wall time: 11.71 s
+CPU times: user 43.26 s, sys 0.19 s, total 43.45 s
+Points: 1505141, Original dims: 844, PCA dims saved: 61
+Hostname: t0033

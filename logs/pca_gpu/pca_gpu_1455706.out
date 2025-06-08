@@ -1,0 +1,9 @@
+
+EnvironmentNameNotFound: Could not find conda environment: dimred_env_gpu
+You can list all discoverable environments with `conda info --envs`.
+
+
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/pca_gpu.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

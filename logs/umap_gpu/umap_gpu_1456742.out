@@ -1,0 +1,8 @@
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/scipy/optimize/_minpack_py.py:539: RuntimeWarning: divide by zero encountered in power
+  return func(xdata, *params) - ydata
+[2025-06-07 23:34:53.990] [CUML] [debug] Computing KNN Graph
+[2025-06-07 23:35:14.062] [CUML] [debug] Computing fuzzy simplicial set
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_gpu/norm
+-5247.7314 1153.0863
+std: 12.38976
+✅ cuML‑UMAP saved to /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_gpu/norm

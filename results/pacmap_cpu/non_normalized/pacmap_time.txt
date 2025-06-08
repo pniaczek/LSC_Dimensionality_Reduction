@@ -1,0 +1,5 @@
+[2025-06-08T17:29:16.170107] PaCMAP (CPU)
+Wall time: 1941.74 s
+CPU times: user 2024.34 s, sys 4.77 s, total 2029.11 s
+Points: 1505141, Dimensions: 2
+Hostname: t0016

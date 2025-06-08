@@ -1,0 +1,14 @@
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/scipy/optimize/_minpack_py.py:539: RuntimeWarning: divide by zero encountered in power
+  return func(xdata, *params) - ydata
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py:215: OptimizeWarning: Covariance of the parameters could not be estimated
+  return func(*args, **kwargs)
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/umap_gpu.py", line 68, in <module>
+    umap = cuUMAP(
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 354, in processor
+    return init_func(self, *args, **filtered_kwargs)
+  File "umap.pyx", line 438, in cuml.manifold.umap.UMAP.__init__
+  File "/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_gpu/lib/python3.10/site-packages/cuml/internals/api_decorators.py", line 215, in wrapper
+    return func(*args, **kwargs)
+  File "umap.pyx", line 464, in cuml.manifold.umap.UMAP.validate_hyperparams
+ValueError: min_dist should be <= spread

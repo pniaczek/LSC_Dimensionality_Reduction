@@ -1,0 +1,8 @@
+[2025-06-07T20:25:28.141042] TSNE (cuML GPU)
+Wall time: 71.42 s
+CPU times: user 70.66 s, sys 0.14 s, total 70.80 s
+GPU kernel time: 71.420 s
+GPU memory used: 94.4 MB / 42600.3 MB
+GPU model: NVIDIA A100-SXM4-40GB, Driver: 570.133.20
+Points: 1505141, Original dims: 10, Output dims: 2
+Hostname: t0011

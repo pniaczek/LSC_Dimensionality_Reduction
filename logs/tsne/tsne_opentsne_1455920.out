@@ -1,0 +1,8 @@
+
+EnvironmentNameNotFound: Could not find conda environment: dimred_env_2
+You can list all discoverable environments with `conda info --envs`.
+
+
+[Fri Jun  6 23:49:52 CEST 2025] Start openTSNE
+python: can't open file '/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/t_sne_cpu.py': [Errno 2] No such file or directory
+[Fri Jun  6 23:49:52 CEST 2025] Done

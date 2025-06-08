@@ -1,0 +1,6 @@
+[2025-06-08T00:02:56.257684] Parametric PaCMAP (GPU)
+Wall time: 2294.74 s
+CPU times: user 2354.98 s, sys 20.61 s, total 2375.59 s
+Points: 1505141, Input dims: 844, Output dims: 2
+Hostname: t0003
+CUDA device: cuda

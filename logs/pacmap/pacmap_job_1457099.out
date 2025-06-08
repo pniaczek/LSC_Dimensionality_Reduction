@@ -1,0 +1,61 @@
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_env/lib/python3.10/site-packages/pacmap/__init__.py:3: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_env/lib/python3.10/site-packages/pacmap/pacmap.py:828: UserWarning: Warning: random state is set to 42
+  warnings.warn(f'Warning: random state is set to {_RANDOM_STATE}')
+Applied PCA, the dimensionality becomes 100
+PaCMAP(n_neighbors=10, n_MN=13, n_FP=9, distance=euclidean, lr=1.0, n_iters=450, apply_pca=True, opt_method='adam', verbose=True, intermediate=False, seed=42)
+Finding pairs
+Found nearest neighbor
+Calculated sigma
+Found scaled dist
+Pairs sampled successfully.
+((15051410, 2), (19566833, 2), (13546269, 2))
+Initial Loss: 11228905.0
+Iteration:   10, Loss: 11978666.000000
+Iteration:   20, Loss: 10472228.000000
+Iteration:   30, Loss: 9954555.000000
+Iteration:   40, Loss: 9497120.000000
+Iteration:   50, Loss: 9012960.000000
+Iteration:   60, Loss: 8528075.000000
+Iteration:   70, Loss: 7951812.000000
+Iteration:   80, Loss: 7273844.500000
+Iteration:   90, Loss: 6486754.000000
+Iteration:  100, Loss: 5109541.500000
+Iteration:  110, Loss: 5984749.000000
+Iteration:  120, Loss: 5956259.500000
+Iteration:  130, Loss: 5859288.000000
+Iteration:  140, Loss: 5851537.000000
+Iteration:  150, Loss: 5864665.000000
+Iteration:  160, Loss: 5864854.000000
+Iteration:  170, Loss: 5862706.000000
+Iteration:  180, Loss: 5862769.000000
+Iteration:  190, Loss: 5863829.500000
+Iteration:  200, Loss: 5864199.000000
+Iteration:  210, Loss: 2696452.250000
+Iteration:  220, Loss: 2643070.500000
+Iteration:  230, Loss: 2637191.750000
+Iteration:  240, Loss: 2633616.500000
+Iteration:  250, Loss: 2632631.000000
+Iteration:  260, Loss: 2632756.000000
+Iteration:  270, Loss: 2632766.500000
+Iteration:  280, Loss: 2632711.250000
+Iteration:  290, Loss: 2632666.000000
+Iteration:  300, Loss: 2632655.500000
+Iteration:  310, Loss: 2632666.000000
+Iteration:  320, Loss: 2632694.500000
+Iteration:  330, Loss: 2632698.500000
+Iteration:  340, Loss: 2632705.250000
+Iteration:  350, Loss: 2632705.500000
+Iteration:  360, Loss: 2632710.000000
+Iteration:  370, Loss: 2632710.250000
+Iteration:  380, Loss: 2632709.750000
+Iteration:  390, Loss: 2632710.500000
+Iteration:  400, Loss: 2632713.500000
+Iteration:  410, Loss: 2632712.250000
+Iteration:  420, Loss: 2632710.500000
+Iteration:  430, Loss: 2632711.250000
+Iteration:  440, Loss: 2632710.000000
+Iteration:  450, Loss: 2632707.750000
+Elapsed time: 1014.59s
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/pacmap_cpu/normalized
+✅ PaCMAP CPU results saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/pacmap_cpu/normalized

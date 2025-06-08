@@ -1,0 +1,6 @@
+[2025-06-07 19:11:31.207] [CUML] [debug] Computing KNN Graph
+[2025-06-07 19:11:49.605] [CUML] [debug] Computing fuzzy simplicial set
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/umap_gpu.py", line 99, in <module>
+    gpu_name = nvmlDeviceGetName(h).decode()
+AttributeError: 'str' object has no attribute 'decode'. Did you mean: 'encode'?

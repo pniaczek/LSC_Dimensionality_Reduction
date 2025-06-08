@@ -1,0 +1,16 @@
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cuda module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.driver module instead.
+[D] [12:44:52.935384] /opt/conda/conda-bld/work/cpp/src/umap/runner.cuh:108 n_neighbors=15
+[D] [12:44:52.936858] /opt/conda/conda-bld/work/cpp/src/umap/runner.cuh:130 Calling knn graph run
+[D] [12:55:21.983083] /opt/conda/conda-bld/work/cpp/src/umap/runner.cuh:136 Done. Calling fuzzy simplicial set
+[D] [12:55:22.021075] /opt/conda/conda-bld/work/cpp/src/umap/fuzzy_simpl_set/naive.cuh:317 Smooth kNN Distances
+[D] [12:55:22.021710] /opt/conda/conda-bld/work/cpp/src/umap/fuzzy_simpl_set/naive.cuh:319 sigmas = [ 0.00275916, 0.00297728, 0.00282298, 0.0062364, 0.00311153, 0.00119533, 0.00357366, 0.013, 0.00450788, 0.00254063, 0.0134251, 0.00898778, 0.00319117, 0.00503796, 0.0050572, 0.00196294, 0.00240215, 0.0171604, 0.00740099, 0.00283678, 0.0064221, 0.00519675, 0.00163695, 0.00590578, 0.00137465 ]
+
+[D] [12:55:22.021793] /opt/conda/conda-bld/work/cpp/src/umap/fuzzy_simpl_set/naive.cuh:321 rhos = [ 0.0912165, 0.123415, 0.0971219, 0.103569, 0.164743, 0.101474, 0.0901709, 0.12853, 0.164708, 0.111179, 0.0896501, 0.0714671, 0.157557, 0.130842, 0.148929, 0.0766471, 0.165387, 0.109471, 0.069836, 0.0931714, 0.117125, 0.0706737, 0.143837, 0.107156, 0.123298 ]
+
+[D] [12:55:22.021843] /opt/conda/conda-bld/work/cpp/src/umap/fuzzy_simpl_set/naive.cuh:345 Compute Membership Strength
+[D] [12:55:36.740284] /opt/conda/conda-bld/work/cpp/src/umap/fuzzy_simpl_set/naive.cuh:348 /opt/conda/conda-bld/work/cpp/src/umap/fuzzy_simpl_set/naive.cuh:348 
+[D] [12:55:36.812080] /opt/conda/conda-bld/work/cpp/src/umap/runner.cuh:143 Done. Calling remove zeros
+[D] [12:55:55.231492] /opt/conda/conda-bld/work/cpp/src/umap/simpl_set_embed/algo.cuh:347 /opt/conda/conda-bld/work/cpp/src/umap/simpl_set_embed/algo.cuh:347 
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_gpu/norm
+✅ cuML‑UMAP saved to /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_gpu/norm

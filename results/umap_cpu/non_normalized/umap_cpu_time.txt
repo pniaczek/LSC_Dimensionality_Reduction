@@ -1,0 +1,5 @@
+[2025-06-07T23:38:46.018187] UMAP (CPU)
+Wall time: 1893.86 s
+CPU times: user 7093.65 s, sys 47.46 s, total 7141.12 s
+Points: 1505141, Input dims: 844, Output dims: 2
+Hostname: t0011

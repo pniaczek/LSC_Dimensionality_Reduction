@@ -1,0 +1,5 @@
+[2025-06-07T00:20:21.550269] TSNE (openTSNE CPU)
+Wall time: 1597.14 s
+CPU times: user 17061.67 s, sys 78.42 s, total 17140.09 s
+Points: 1505141, Input dims: 844, Output dims: 2
+Hostname: t0002

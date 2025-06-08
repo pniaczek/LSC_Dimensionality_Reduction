@@ -1,0 +1,6 @@
+/net/tscratch/people/plgmpniak/miniconda3/envs/dimred_env/lib/python3.10/site-packages/sklearn/utils/deprecation.py:132: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/umap_cpu.py", line 68, in <module>
+    f.write(f"\nHostname: {os.uname().nodename()}\n")
+TypeError: 'str' object is not callable

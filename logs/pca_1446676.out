@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/pca_cpu.py", line 11, in <module>
-    from visualizations import visualize
-ModuleNotFoundError: No module named 'visualizations'

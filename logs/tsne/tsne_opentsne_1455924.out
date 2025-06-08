@@ -1,0 +1,32 @@
+[Fri Jun  6 23:53:33 CEST 2025] Start openTSNE
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=16, random_state=42, verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 90 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 705.92 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 13.79 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 4.06 seconds
+===> Running optimization with exaggeration=12.00, lr=125428.42 for 250 iterations...
+Iteration   50, KL divergence 9.1255, 50 iterations in 54.2269 sec
+Iteration  100, KL divergence 9.0245, 50 iterations in 55.4059 sec
+Iteration  150, KL divergence 9.0178, 50 iterations in 55.2930 sec
+Iteration  200, KL divergence 9.0159, 50 iterations in 55.2043 sec
+Iteration  250, KL divergence 9.0147, 50 iterations in 55.7329 sec
+   --> Time elapsed: 275.86 seconds
+===> Running optimization with exaggeration=1.00, lr=1505141.00 for 500 iterations...
+Iteration   50, KL divergence 6.7517, 50 iterations in 56.1557 sec
+Iteration  100, KL divergence 6.4917, 50 iterations in 55.7904 sec
+Iteration  150, KL divergence 6.3586, 50 iterations in 55.6911 sec
+Iteration  200, KL divergence 6.2731, 50 iterations in 57.1759 sec
+Iteration  250, KL divergence 6.2114, 50 iterations in 57.8836 sec
+Iteration  300, KL divergence 6.1637, 50 iterations in 58.8867 sec
+Iteration  350, KL divergence 6.1249, 50 iterations in 61.0407 sec
+Iteration  400, KL divergence 6.0927, 50 iterations in 60.1692 sec
+Iteration  450, KL divergence 6.0652, 50 iterations in 61.1576 sec
+Iteration  500, KL divergence 6.0416, 50 iterations in 61.7786 sec
+   --> Time elapsed: 585.74 seconds
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/tsne_cpu/non_normalized
+openTSNE results saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/tsne_cpu/non_normalized
+[Sat Jun  7 00:20:34 CEST 2025] Done

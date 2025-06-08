@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/pca_cpu.py", line 21, in <module>
-    basis = np.load(DATA_PATH / 'basis.npz')['matrix']
-  File "/net/people/plgrid/plgmpniak/.conda/envs/dimred_env/lib/python3.10/site-packages/numpy/lib/_npyio_impl.py", line 261, in __getitem__
-    raise KeyError(f"{key} is not a file in the archive")
-KeyError: 'matrix is not a file in the archive'

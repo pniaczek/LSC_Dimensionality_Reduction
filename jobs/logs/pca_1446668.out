@@ -1,4 +1,0 @@
-usage: conda [-h] [--no-plugins] [-V] COMMAND ...
-conda: error: argument COMMAND: invalid choice: 'activate' (choose from 'clean', 'compare', 'config', 'create', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade', 'doctor', 'content-trust', 'env')
-/var/spool/slurmd/job1446668/slurm_script: line 18: cd: scripts: No such file or directory
-python: can't open file '/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/jobs/pca_cpu.py': [Errno 2] No such file or directory

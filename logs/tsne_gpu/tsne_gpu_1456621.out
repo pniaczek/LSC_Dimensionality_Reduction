@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/tsne_gpu.py", line 82, in <module>
+    gpu_name = nvmlDeviceGetName(handle).decode()
+AttributeError: 'str' object has no attribute 'decode'. Did you mean: 'encode'?

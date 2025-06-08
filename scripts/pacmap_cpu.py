@@ -9,33 +9,52 @@ import sys
 
 COMMON_PATH = Path(__file__).resolve().parent.parent / "common"
 sys.path.insert(0, str(COMMON_PATH))
-
 from visualizations import visualize
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-DATA_PATH = PROJECT_ROOT / "data/embeddings_data/embeddings"
-RESULTS_DIR = PROJECT_ROOT / "results" / "pacmap"
+DATA_PATH = PROJECT_ROOT / "data"
+RESULTS_BASE = PROJECT_ROOT / "results" / "pacmap_cpu"
+
+use_normalized = False
+use_pca = False
+
+if use_pca:
+    if use_normalized:
+        X = np.load(DATA_PATH / 'X_pca_gpu_norm_90.npz')['matrix'].astype(np.float32)
+        RESULTS_DIR = RESULTS_BASE / "pca_normalized"
+    else:
+        X = np.load(DATA_PATH / 'X_pca_gpu_90.npz')['matrix'].astype(np.float32)
+        RESULTS_DIR = RESULTS_BASE / "pca_non_normalized"
+else:
+    if use_normalized:
+        X = np.load(DATA_PATH / 'X_norm.npz')['X_norm'].astype(np.float32)
+        RESULTS_DIR = RESULTS_BASE / "normalized"
+    else:
+        X = np.load(DATA_PATH / 'X.npz')['X'].astype(np.float32)
+        RESULTS_DIR = RESULTS_BASE / "non_normalized"
+
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-n_neighbors_norm = 10
-MN_ratio_norm = 1.3
-FP_ratio_norm = 0.9
-
-basis = np.load(DATA_PATH / 'basis.npz')['matrix']
-X_norm = (basis.T / basis.sum(axis=1)).T
+if np.isnan(X).any() or np.isinf(X).any():
+    raise ValueError("Input contains NaN or Inf - PaCMAP cannot handle them.")
 
 wall_start = time.perf_counter()
 cpu_start = resource.getrusage(resource.RUSAGE_SELF)
 
+n_neighbors = 10
+MN_ratio = 1.3
+FP_ratio = 0.9
+
 embedding = pacmap.PaCMAP(
     n_components=2,
-    n_neighbors=n_neighbors_norm,
-    MN_ratio=MN_ratio_norm,
-    FP_ratio=FP_ratio_norm,
-    random_state=1
+    n_neighbors=n_neighbors,
+    MN_ratio=MN_ratio,
+    FP_ratio=FP_ratio,
+    random_state=42,
+    verbose=True
 )
-X_pacmap = embedding.fit_transform(X_norm, init="pca")
+X_pacmap = embedding.fit_transform(X, init="pca")
 
 wall_end = time.perf_counter()
 cpu_end = resource.getrusage(resource.RUSAGE_SELF)
@@ -45,12 +64,12 @@ wall_time = wall_end - wall_start
 cpu_total = utime + stime
 
 with open(RESULTS_DIR / "pacmap_time.txt", "w") as f:
-    f.write(f"[{datetime.now().isoformat()}] PaCMAP\n")
+    f.write(f"[{datetime.now().isoformat()}] PaCMAP (CPU)\n")
     f.write(f"Wall time: {wall_time:.2f} s\n")
     f.write(f"CPU times: user {utime:.2f} s, sys {stime:.2f} s, total {cpu_total:.2f} s\n")
     f.write(f"Points: {X_pacmap.shape[0]}, Dimensions: {X_pacmap.shape[1]}\n")
     f.write(f"Hostname: {os.uname().nodename}\n")
 
-visualize(X_2d=X_pacmap, method_name="pacmap", out_dir=RESULTS_DIR)
+visualize(X_2d=X_pacmap, method_name="pacmap_cpu", out_dir=RESULTS_DIR)
 
-print(f"Plots and output saved in: {RESULTS_DIR.resolve()}")
+print(f"PaCMAP CPU results saved in: {RESULTS_DIR.resolve()}")

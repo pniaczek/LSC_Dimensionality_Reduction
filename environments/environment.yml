@@ -9,9 +9,10 @@ dependencies:
   - matplotlib
   - scikit-learn
   - fastparquet
-  - pacmap==0.7.2
   - umap-learn
+  - pacmap==0.7.2
   - datashader
   - pip
   - pip:
       - trimap
+      - openTSNE

@@ -1,0 +1,6 @@
+[2025-06-07 23:22:51.952] [CUML] [debug] Computing KNN Graph
+[2025-06-07 23:23:12.646] [CUML] [debug] Computing fuzzy simplicial set
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_gpu/raw
+-626.3666 621.404
+std: 8.757172
+✅ cuML‑UMAP saved to /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/umap_gpu/raw

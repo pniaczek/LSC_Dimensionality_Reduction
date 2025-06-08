@@ -1,0 +1,6 @@
+/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/common/visualizations.py:56: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.tight_layout()
+/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/common/visualizations.py:57: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_dir / f"{method_name}_embedding.png", dpi=300)
+Plots were generated and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/tsne_gpu/pca_normalized
+cuML TSNE completed and saved in: /net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/results/tsne_gpu/pca_normalized

@@ -1,0 +1,21 @@
+name: dimred_gpu
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cuml=25.04
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - fastparquet
+  - datashader
+  - pip
+  - pip:
+      - pacmap==0.7.2
+      - trimap
+      - openTSNE
+      - pynvml

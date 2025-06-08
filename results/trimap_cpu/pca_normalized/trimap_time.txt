@@ -1,0 +1,5 @@
+[2025-06-07T23:48:54.167838] TRIMAP (CPU)
+Wall time: 2731.92 s
+CPU times: user 2732.50 s, sys 2.77 s, total 2735.27 s
+Points: 1505141, Dimensions: 2
+Hostname: t0016

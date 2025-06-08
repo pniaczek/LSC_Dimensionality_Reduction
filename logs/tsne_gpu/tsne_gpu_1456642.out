@@ -1,0 +1,4 @@
+  File "/net/tscratch/people/plgmpniak/LSC_dim_reduction/LSC_Dimensionality_Reduction/scripts/tsne_gpu.py", line 61
+    tsne = cuMLTSNE(n_components=2, perplexity=300, n_iter=30000, verbose=1, max(X.shape[0] / 12, 1000))
+                                                                                                       ^
+SyntaxError: positional argument follows keyword argument

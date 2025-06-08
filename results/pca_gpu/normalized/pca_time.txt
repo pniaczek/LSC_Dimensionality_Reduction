@@ -1,0 +1,11 @@
+[2025-06-06T18:46:43.485079] PCA (AFDB, cuML GPU)
+Explained variance (first 2): 25.57%, 21.85%
+Total explained variance (100 comps): 93.90%
+Components needed for >=90% variance: 61
+Wall time: 0.87 s
+CPU times: user 0.81 s, sys 0.05 s, total 0.86 s
+GPU kernel time: 0.509 s
+GPU memory used: 654.3 MB / 42600.3 MB
+GPU model: NVIDIA A100-SXM4-40GB, Driver: 570.133.20
+Points: 1505141, Original dims: 844, PCA dims saved: 61
+Hostname: t0025
