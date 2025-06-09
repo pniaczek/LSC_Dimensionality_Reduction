@@ -57,7 +57,7 @@ evt_start.record()
 wall_start = time.perf_counter()
 cpu_start = resource.getrusage(resource.RUSAGE_SELF)
 
-tsne = cuMLTSNE(n_components=2, perplexity=30, n_iter=300, verbose=1, learning_rate=max(X.shape[0]/50, 1000), method="exact")
+tsne = cuMLTSNE(n_components=2, perplexity=30, n_iter=300, verbose=1, learning_rate=max(X.shape[0]/100, 500), method="exact")
 X_tsne = tsne.fit_transform(X_gpu)
 
 wall_end = time.perf_counter()

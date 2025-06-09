@@ -23,7 +23,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_PATH    = PROJECT_ROOT / "data"
 RES_BASE     = PROJECT_ROOT / "results" / "umap_gpu"
 
-use_normalized = True
+use_normalized = False
 use_pca        = False
 
 

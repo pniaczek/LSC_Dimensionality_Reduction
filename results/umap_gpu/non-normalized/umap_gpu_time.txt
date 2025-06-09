@@ -1,0 +1,8 @@
+[2025-06-08T19:34:02.418539] cuML-UMAP
+Wall time: 30.72 s
+CPU user 68.51 s, sys 1.42 s
+GPU kernel 30.519 s
+GPU mem: 522.2 MB / 42600 MB
+GPU: NVIDIA A100-SXM4-40GB, driver 570.133.20
+Points: 1505141, In dims: 844, Out dims: 2
+Hostname: t0011
