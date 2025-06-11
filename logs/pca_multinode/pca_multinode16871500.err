@@ -1,0 +1,78 @@
+/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-06-11 17:25:03,258 - tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x149dc27c2dd0>>, <Task finished name='Task-14' coro=<SpecCluster._correct_state_internal() done, defined at /net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py:352> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nsbatch /net/afscra/people/plgbwojtarow/slurm_jobdir/16871500/tmp.ac0014/tmp98xpotb6.sh\nstdout:\n\nstderr:\nsbatch: error: Batch job submission failed: Access/permission denied\n\n')>)
+Traceback (most recent call last):
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/tornado/ioloop.py", line 782, in _discard_future_result
+    future.result()
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py", line 396, in _correct_state_internal
+    await asyncio.gather(*worker_futs)
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/asyncio/tasks.py", line 650, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py", line 74, in _
+    await self.start()
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 426, in start
+    out = await self._submit_job(fn)
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 409, in _submit_job
+    return await self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 514, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+sbatch /net/afscra/people/plgbwojtarow/slurm_jobdir/16871500/tmp.ac0014/tmp98xpotb6.sh
+stdout:
+
+stderr:
+sbatch: error: Batch job submission failed: Access/permission denied
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<_wrap_awaitable() done, defined at /net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py:124> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nsbatch /net/afscra/people/plgbwojtarow/slurm_jobdir/16871500/tmp.ac0014/tmpgizeibkf.sh\nstdout:\n\nstderr:\nsbatch: error: Batch job submission failed: Access/permission denied\n\n')>
+Traceback (most recent call last):
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py", line 125, in _wrap_awaitable
+    return await aw
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py", line 74, in _
+    await self.start()
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 426, in start
+    out = await self._submit_job(fn)
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 409, in _submit_job
+    return await self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 514, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+sbatch /net/afscra/people/plgbwojtarow/slurm_jobdir/16871500/tmp.ac0014/tmpgizeibkf.sh
+stdout:
+
+stderr:
+sbatch: error: Batch job submission failed: Access/permission denied
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<_wrap_awaitable() done, defined at /net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py:124> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nsbatch /net/afscra/people/plgbwojtarow/slurm_jobdir/16871500/tmp.ac0014/tmpfy5gbntf.sh\nstdout:\n\nstderr:\nsbatch: error: Batch job submission failed: Access/permission denied\n\n')>
+Traceback (most recent call last):
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py", line 125, in _wrap_awaitable
+    return await aw
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/distributed/deploy/spec.py", line 74, in _
+    await self.start()
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 426, in start
+    out = await self._submit_job(fn)
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 409, in _submit_job
+    return await self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/net/afscra/people/plgbwojtarow/envs/dimred_env/lib/python3.10/site-packages/dask_jobqueue/core.py", line 514, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+sbatch /net/afscra/people/plgbwojtarow/slurm_jobdir/16871500/tmp.ac0014/tmpfy5gbntf.sh
+stdout:
+
+stderr:
+sbatch: error: Batch job submission failed: Access/permission denied
+
+
