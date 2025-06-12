@@ -1,8 +1,7 @@
 # P2: Large Scale Dimensionality Reduction
+### Authors: Mikołaj Pniak, Barbara Wojtarowicz
 
 This repository contains the code and results for the "Large Scale Dimensionality Reduction" project (Task 2). The primary goal is to explore the PaCMAP method as well as other dimensionality reduction techniques and compare them on a large dataset.
-
-### Authors: Mikołaj Pniak, Barbara Wojtarowicz
 
 ## Project Objectives
 
