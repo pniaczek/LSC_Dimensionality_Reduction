@@ -1,8 +1,12 @@
 import numpy as np
 from pathlib import Path
+import os
 
-RAW_DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "embeddings_data" / "embeddings"
+# RAW_DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "embeddings_data" / "embeddings"
+RAW_DATA_PATH = Path(__file__).resolve().parent.parent
 PROCESSED_DATA_PATH = Path(__file__).resolve().parent.parent / "data"
+
+os.makedirs(PROCESSED_DATA_PATH, exist_ok=True)
 
 basis = np.load(RAW_DATA_PATH / "basis.npz")["matrix"]
 
