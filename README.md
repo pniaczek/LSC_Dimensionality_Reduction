@@ -2,6 +2,7 @@
 ### Authors: Mikołaj Pniak, Barbara Wojtarowicz
 
 This repository contains the code and results for the "Large Scale Dimensionality Reduction" project (Task 2). The primary goal is to explore the PaCMAP method as well as other dimensionality reduction techniques and compare them on a large dataset.
+Checkout the presentation: https://www.canva.com/design/DAGqFKoRVBY/2uNKO18uU8ekjRvOVB56oA/edit !
 
 ## Project Objectives
 
@@ -134,7 +135,7 @@ Results analysis was perfomed in the `results_analysis/results_analysis.ipynb` j
 #### CPU/Wall mean times ratio
 ![alt text](demo-images/image-2.png)
 
-## We hope there's more to come
+## We hope there's more to come!
 We hope to expand the experiments using other libraries or other methods. E.g. PCA on multiple nodes using Dask framework: 
 https://ml.dask.org/modules/generated/dask_ml.decomposition.PCA.html.
 As unforunately we've encountered trouble with Dask SLURMCluster scheduler: https://jobqueue.dask.org/en/latest/generated/dask_jobqueue.SLURMCluster.html.
