@@ -1,6 +1,0 @@
-[2025-05-31T23:59:39.218420] PCA (AFDB + ESMAtlas + MIP)
-Explained variance: 25.58%, 21.83%
-Wall time: 11.13 s
-CPU times: user 41.04 s, sys 0.08 s, total 41.11 s
-Points: 1505141, Dimensions: 2
-Hostname: t0011

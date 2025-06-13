@@ -1,5 +1,0 @@
-[2025-05-30T19:28:02.837600] UMAP
-Wall time: 2298.71 s
-CPU times: user 7788.91 s, sys 66.99 s, total 7855.90 s
-Points: 1505141, Dimensions: 2
-Hostname: ac0540

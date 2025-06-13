@@ -1,8 +1,0 @@
-/net/afscra/people/plgmpniak/.conda/envs/dimred_env/lib/python3.10/site-packages/pacmap/pacmap.py:828: UserWarning: Warning: random state is set to 1
-  warnings.warn(f'Warning: random state is set to {_RANDOM_STATE}')
-/net/afscra/people/plgmpniak/dimensionality_reduction_project/pacmap_reduction.py:72: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
-  return [colors.rgb2hex(cm.get_cmap(name)(i)) for i in np.linspace(0, 1, 256)]
-Traceback (most recent call last):
-  File "/net/afscra/people/plgmpniak/dimensionality_reduction_project/pacmap_reduction.py", line 97, in <module>
-    tf.export_image(img, filename=str(RESULTS_DIR / f"pacmap_datashader_{name}"), background=settings["background"])
-AttributeError: module 'datashader.transfer_functions' has no attribute 'export_image'

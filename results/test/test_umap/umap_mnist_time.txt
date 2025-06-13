@@ -1,5 +1,0 @@
-[2025-05-30T18:16:51.229936] UMAP MNIST
-Wall time: 26.45 s
-CPU times: user 26.38 s, sys 0.05 s, total 26.42 s
-Points: 5000, Dimensions: 2
-Hostname: ac0077
